@@ -2,7 +2,27 @@
 
 ## Problems
 
-Sebuah perusahaan ingin meminimalisir resiko seorang customer untuk berhenti memakai produk yang mereka tawarkan. Bantulah perusahaan tersebut untuk memprediksi customer yang akan berhenti (churn) dari dataset yang diberikan. 
+Sebuah perusahaan ingin meminimalisir resiko seorang customer untuk berhenti memakai produk yang mereka tawarkan. Langkah ini akan membantu perusahaan tersebut untuk memprediksi customer yang akan berhenti (churn) dari dataset yang diberikan. 
+
+## Objective
+membangun model prediksi churn yang akurat dengan menggunakan dataset yang diberikan, dengan tujuan meminimalkan resiko seorang customer untuk berhenti menggunakan produk yang ditawarkan oleh perusahaan.
+
+Berikut beberapa poin yang bisa menjadi sub-objective dalam mencapai tujuan tersebut:
+
+1. Mengumpulkan dan memproses data dengan baik agar dapat digunakan sebagai input dalam model prediksi churn.
+
+2. Membuat model Deep learning yang tepat untuk memprediksi customer churn berdasarkan variabel yang relevan dalam dataset. Melakukan evaluasi kinerja model dan optimasi parameter untuk meningkatkan akurasi prediksi.
+
+3. Menerapkan model prediksi pada data customer baru untuk mengidentifikasi customer yang berisiko churn dan mengambil tindakan preventif untuk mempertahankan mereka sebagai pelanggan.
+
+4. Dengan mengoptimalkan model prediksi churn, perusahaan dapat meminimalkan resiko kehilangan pelanggan yang dapat berdampak negatif pada pertumbuhan bisnis dan keuntungan jangka panjang.
+
+## Overall Analysis
+
+dari hasil prediksi dapat disimpulkan bahwa berhasil menyempurnakan model dengan accuracy pada Sequential tune: 92% dan Funtional Tune: 93%
+Model dapat memprediksi dengan sangat baik.
+Model masih dapat ditingkatkan karena beberapa faktor seperti:
+bisa menambahkan Paramater penting pada HyperParameter Tuning sehingga dapat menghasilkan prediksi yang lebih optimal.
 
 *Dataset terlampir pada repository*
 
@@ -10,7 +30,7 @@ Sebuah perusahaan ingin meminimalisir resiko seorang customer untuk berhenti mem
 
 ## Dataset Description
 
-Dataset name : `churn.csv`
+Dataset name: `churn.csv`
 
 | Column | Description |
 | --- | --- |
