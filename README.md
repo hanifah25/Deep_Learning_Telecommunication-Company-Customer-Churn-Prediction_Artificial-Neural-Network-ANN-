@@ -1,30 +1,24 @@
 ---
 
-## Problems
+Data Science Project
+Model Used - ANN (Artificial Neural Network)
+Project - Deep Learning - Customer Churn Prediction
 
-Sebuah perusahaan ingin meminimalisir resiko seorang customer untuk berhenti memakai produk yang mereka tawarkan. Langkah ini akan membantu perusahaan tersebut untuk memprediksi customer yang akan berhenti (churn) dari dataset yang diberikan. 
+# Problem Statement 
+A company wants to minimize the risk of a customer to stop using the product they offer. This process helps the company to predict which customers will stop (churn) from the given dataset.
 
-## Objective
-membangun model prediksi churn yang akurat dengan menggunakan dataset yang diberikan, dengan tujuan meminimalkan resiko seorang customer untuk berhenti menggunakan produk yang ditawarkan oleh perusahaan.
+# Objective
+build an accurate churn prediction model using the given dataset, with the aim of minimizing the risk of a customer stopping using the product offered by the company.
 
-Berikut beberapa poin yang bisa menjadi sub-objective dalam mencapai tujuan tersebut:
+# Overall analysis
+* From the prediction results it can be concluded that the success of perfecting the model with accuracy on Sequential tune: 92% and Functional Tune: 93%
+* The model can predict very well.
+* Models can still be upgraded due to several factors such as: can add important Parameters to HyperParameter Tuning so that it can produce more optimal predictions.
 
-1. Mengumpulkan dan memproses data dengan baik agar dapat digunakan sebagai input dalam model prediksi churn.
-
-2. Membuat model Deep learning yang tepat untuk memprediksi customer churn berdasarkan variabel yang relevan dalam dataset. Melakukan evaluasi kinerja model dan optimasi parameter untuk meningkatkan akurasi prediksi.
-
-3. Menerapkan model prediksi pada data customer baru untuk mengidentifikasi customer yang berisiko churn dan mengambil tindakan preventif untuk mempertahankan mereka sebagai pelanggan.
-
-4. Dengan mengoptimalkan model prediksi churn, perusahaan dapat meminimalkan resiko kehilangan pelanggan yang dapat berdampak negatif pada pertumbuhan bisnis dan keuntungan jangka panjang.
-
-## Overall Analysis
-
-dari hasil prediksi dapat disimpulkan bahwa berhasil menyempurnakan model dengan accuracy pada Sequential tune: 92% dan Funtional Tune: 93%
-Model dapat memprediksi dengan sangat baik.
-Model masih dapat ditingkatkan karena beberapa faktor seperti:
-bisa menambahkan Paramater penting pada HyperParameter Tuning sehingga dapat menghasilkan prediksi yang lebih optimal.
-
-*Dataset terlampir pada repository*
+# Conclusion
+* It can be seen from the EDA above that the average customer transaction value tends to increase over time, from 2015 to 2017. This indicates that customers are becoming more active in making transactions and may be more loyal to the business. This can be a positive signal for a business to retain existing customers and attract new ones by offering attractive services or products.
+* The majority of customers give "dissatisfied" or "neutral" feedback on the company's services (poor quality, too many ads, etc.). This needs to be considered by the company to improve service quality in order to increase customer satisfaction.
+* In this case it is recommended to focus on customer satisfaction: To maintain customer satisfaction, companies need to ensure that the products and services offered are in accordance with customer needs and expectations. In conditions where the number of customer churn and non-churn is balanced, companies still need to pay attention to product or service quality, ensure customer retention, increase customer satisfaction, and increase customer loyalty to maintain healthy business growth.
 
 ---
 
